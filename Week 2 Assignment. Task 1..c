@@ -1,4 +1,4 @@
-// Program showing acahemic units offered this semester
+// Program showing academic units offered this semester
 
 /*
 Description: Program to show units offered this semester
