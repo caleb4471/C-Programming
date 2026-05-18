@@ -12,7 +12,7 @@ int main(){
 	
 	float height;
 	double balance;
-	char phone[20];
+	char phone[10];
 	
 	// User input
 	printf("Enter your height:");
