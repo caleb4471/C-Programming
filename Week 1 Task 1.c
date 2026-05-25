@@ -6,6 +6,7 @@ Name:Caleb Anuri Ngoge
 ADM No:BCS-05-0042/2025
 Date:11/05/2026
 */
+
 #include <stdio.h>
 
 int main(){
