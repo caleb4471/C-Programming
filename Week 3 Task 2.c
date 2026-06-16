@@ -1,4 +1,9 @@
 //Water bill calculator
+/*
+Name:Caleb Anuri
+Reg NO:BCS-05-0042/2025
+Date:16/06/2026
+*/
 
 #include<stdio.h>
 
