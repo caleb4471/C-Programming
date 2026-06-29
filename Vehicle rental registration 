@@ -1,0 +1,50 @@
+//Program for vehicle rental registration.
+
+/*
+Name:Caleb Anuri
+Reg No:BCS-05-0042/2025
+Date:29/06/2026
+*/ 
+
+#include <stdio.h>
+
+struct Vehicle {
+char registrationNumber[20];
+char vehicleModel[50];
+char manufacturer[50];
+int yearOfManufacture;
+double dailyRentalCharge;
+};
+
+int main() {
+
+struct Vehicle {
+ 
+printf("Enter Vehicle Details:\n");
+
+printf("Registration Number (e.g., KDJ 345T): ");
+scanf(" %[^\n]", myVehicle.registrationNumber);
+
+printf("Vehicle Model (e.g., Corolla): ");
+scanf(" %[^\n]", myVehicle.vehicleModel);
+
+printf("Manufacturer (e.g., Toyota): ");
+scanf(" %[^\n]", myVehicle.manufacturer);
+
+printf("Year of Manufacture: ");
+scanf("%d", &myVehicle.yearOfManufacture);
+
+printf("Daily Rental Charge (Ksh): ");
+scanf("%lf", &myVehicle.dailyRentalCharge);
+printf("\n--------------------------------------\n");
+printf(" VEHICLE REGISTRATION REPORT \n");
+printf("--------------------------------------\n");
+printf("Registration No. : %s\n", myVehicle.registrationNumber);
+printf("Vehicle Model : %s\n", myVehicle.vehicleModel);
+printf("Manufacturer : %s\n", myVehicle.manufacturer);
+printf("Year Manufactured : %d\n", myVehicle.yearOfManufacture);
+printf("Daily Rental Fee : Ksh %.0lf\n", myVehicle.dailyRentalCharge);
+printf("--------------------------------------\n");
+
+return 0;
+}
