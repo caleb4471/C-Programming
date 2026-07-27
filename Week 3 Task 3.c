@@ -7,16 +7,18 @@ Date:14/06/2026
 */
 
 #include <stdio.h>
-int choice;
 
 int main(){
+
+int choice;
+
 	printf("Data bundles offered:\n");
 	printf("1. 100MB @50 KES.\n");
 	printf("2. 500MB @200 KES.\n");
 	printf("3. 1GB @350 KES.\n");
 	printf("4. 2GB @600 KES.\n");
 	
-	printf("Enter the your bundle choice:\n");
+	printf("Enter your bundle choice:\n");
 	scanf("%d", &choice);
 	
 	switch (choice){
