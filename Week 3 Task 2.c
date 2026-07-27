@@ -25,7 +25,7 @@ int main(){
 		totalbill=units*30;
 	}
 
-	printf("Your totalbill is:%d\n", totalbill);
+	printf("Your totalbill is:%.2d Ksh\n", totalbill);
 			
 	return 0;
 }
